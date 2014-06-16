@@ -226,7 +226,9 @@ IF NOT ISCLEAR(Folder_gAut) THEN BEGIN
   OutputFilePath_gTxt := Folder_gAut.Items().Item.Path;
 END;
 ```
- 
+
+![select folder dialog](https://github.com/pullrich/cal-code-snippets/raw/0e8ff0c86fbd68bb969a7e7327a811b81b4c222c/pictures/search-folder-dialog.jpg "select folder dialog")
+
 ## DOS Shell aus Navision (ohne lästiges Nachfragen durch das System)
 ```
 Variable: lAutShell	Automation	'Windows Script Host Object Model'.WshShell	
